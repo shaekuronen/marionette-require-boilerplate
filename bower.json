@@ -1,0 +1,9 @@
+{
+  "name": "marionette-require-boilerplate",
+  "version": "0.0.0",
+  "dependencies": {
+    "backbone.marionette": "~1.6.4"
+  },
+  "devDependencies": {},
+  "directory": "public/bower_components"
+}

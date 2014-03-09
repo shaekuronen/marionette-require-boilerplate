@@ -1,10 +1,13 @@
 // Router.js
 // ----------------
-define(["jquery", "backbone", "models/Model", "views/View", "collections/Collection"],
+define([
+    'backbone',
+    'backbone.marionette'
+    ],
 
-    function($, Backbone, Model, View, Collection) {
+    function(Backbone, Marionette) {
 
-        var Router = Backbone.Router.extend({
+        var Router = Marionette.AppRouter.extend({
 
             initialize: function() {
 
@@ -13,18 +16,11 @@ define(["jquery", "backbone", "models/Model", "views/View", "collections/Collect
 
             },
 
-            // All of your Backbone Routes (add more)
-            routes: {
+            // these callback methods are in routeController.js
+            appRoutes: {
 
                 // When there is no hash on the url, the home method is called
                 "": "index"
-
-            },
-
-            index: function() {
-
-                // Instantiates a new view which will render the header text to the page
-                new View();
 
             }
 

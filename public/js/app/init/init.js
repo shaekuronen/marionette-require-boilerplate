@@ -2,12 +2,34 @@
 // --------------
 
 // Includes JavaScript files here (or inside of your router)
-require(["jquery", "backbone", "routers/Router", "jqueryui", "bootstrap", "backbone.validateAll"],
+require([
+  "jquery",
+  "backbone",
+  "backbone.marionette",
+  "routers/Router",
+  "jqueryui",
+  "bootstrap",
+  "backbone.validateAll"
+  ],
 
-  function($, Backbone, Router) {
+  function($, Backbone, Marionette) {
+      'use strict';
 
-    // Instantiates a new Desktop Router instance
-    new Router();
+    // create the application object
+    var App = new Backbone.Marionette.Application();
+
+    /* Add application regions here */
+    App.addRegions({
+
+    });
+
+    /* Add initializers here */
+    App.addInitializer(function(Backbone, Router) {
+      // Instantiates a new Router instance
+      new Router();
+    });
+
+    return App;
 
   }
 

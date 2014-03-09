@@ -29,11 +29,11 @@ require.config({
 
       "jasminejquery": "../libs/plugins/jasmine-jquery",
 
-      "backbone.marionette": "../../../bower_components/marionette/lib/backbone.marionette",
+      "backbone.marionette": "../../bower_components/backbone.marionette/lib/core/amd/backbone.marionette",
 
-      "backbone.babysitter": "../../../bower_components/backbone.babysitter/lib/amd/backbone.babysitter",
+      "backbone.babysitter": "../../bower_components/backbone.babysitter/lib/amd/backbone.babysitter",
 
-      "backbone.wreqr": "../../../bower_components/backbone.wreqr/lib/amd/backbone.wreqr"
+      "backbone.wreqr": "../../bower_components/backbone.wreqr/lib/amd/backbone.wreqr"
 
   },
 
