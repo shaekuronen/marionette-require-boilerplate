@@ -2,7 +2,13 @@
   "name": "marionette-require-boilerplate",
   "version": "0.0.0",
   "dependencies": {
-    "backbone.marionette": "~1.6.4"
+    "backbone.marionette": "~1.6.4",
+    "lodash": "~2.4.1",
+    "bootstrap": "~3.1.1",
+    "requirejs-text": "~2.0.10",
+    "Backbone.validateAll": "latest",
+    "jasmine-jquery": "~2.0.3",
+    "jquery-ui": "~1.10.4"
   },
   "devDependencies": {},
   "directory": "public/bower_components"

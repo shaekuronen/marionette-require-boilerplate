@@ -11,23 +11,21 @@ require.config({
 
       // Core Libraries
       // --------------
-      "jquery": "../libs/jquery",
+      "jquery": "../../bower_components/jquery/dist/jquery",
 
-      "jqueryui": "../libs/jqueryui",
+      "underscore": "../../bower_components/lodash/dist/lodash",
 
-      "underscore": "../libs/lodash",
-
-      "backbone": "../libs/backbone",
+      "backbone": "../../bower_components/backbone/backbone",
 
       // Plugins
       // -------
-      "backbone.validateAll": "../libs/plugins/Backbone.validateAll",
+      "backbone.validateAll": "../../bower_components/Backbone.validateAll/src/javascripts/Backbone.validateAll",
 
-      "bootstrap": "../libs/plugins/bootstrap",
+      "bootstrap": "../../bower_components/bootstrap/dist/js/bootstrap",
 
-      "text": "../libs/plugins/text",
+      "text": "../../bower_components/requirejs-text/text",
 
-      "jasminejquery": "../libs/plugins/jasmine-jquery",
+      "jasminejquery": "../../bower_components/jasmine-jquery/lib/jasmine-jquery.js",
 
       "backbone.marionette": "../../bower_components/backbone.marionette/lib/core/amd/backbone.marionette",
 
@@ -42,9 +40,6 @@ require.config({
 
       // Twitter Bootstrap jQuery plugins
       "bootstrap": ["jquery"],
-
-      // jQueryUI
-      "jqueryui": ["jquery"],
 
       // Backbone.validateAll plugin that depends on Backbone
       "backbone.validateAll": ["backbone"],

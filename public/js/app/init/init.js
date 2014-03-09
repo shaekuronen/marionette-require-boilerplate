@@ -7,7 +7,6 @@ require([
   "backbone",
   "backbone.marionette",
   "routers/Router",
-  "jqueryui",
   "bootstrap",
   "backbone.validateAll"
   ],
