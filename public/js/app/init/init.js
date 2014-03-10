@@ -28,6 +28,12 @@ require([
       new Router();
     });
 
+    App.on("initialize:after", function(){
+      if (Backbone.history){
+        Backbone.history.start();
+      }
+    });
+
     return App;
 
   }

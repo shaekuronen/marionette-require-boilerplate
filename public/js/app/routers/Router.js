@@ -9,13 +9,6 @@ define([
 
         var Router = Marionette.AppRouter.extend({
 
-            initialize: function() {
-
-                // Tells Backbone to start watching for hashchange events
-                Backbone.history.start();
-
-            },
-
             // these callback methods are in routeController.js
             appRoutes: {
 
